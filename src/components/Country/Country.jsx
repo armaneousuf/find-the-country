@@ -5,7 +5,7 @@ const Country = ({ country }) => {
     <div>
       <div className="nav">
         <p>Country: {country.name.common}</p>
-        <p>Capital: {country.capital.capital[0]}</p>
+        <p>Capital: {country.capital?.capital?.[0] || "N/A"}</p>
         <p>Population: {country.population.population}</p>
         <p>Region: {country.region.region}</p>
         <p>Area: {country.area.area}</p>
