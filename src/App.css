@@ -3,3 +3,23 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+  padding: 10px;
+}
+
+.nav > * {
+  border-bottom: 2px solid #d1d5db;
+  font-size: 20px;
+}
+
+.img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
